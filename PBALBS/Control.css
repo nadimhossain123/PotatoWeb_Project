@@ -1,0 +1,206 @@
+﻿.GridViewStyle
+{
+    font-family: Arial, Sans-Serif;
+    font-size: small;
+    table-layout: auto;
+    border-collapse: collapse;
+    border: solid 1px #1398ED;
+}
+
+.HeaderStyle, .PagerStyle, .FooterStyle, .EmptyTableHeader /*Common Styles*/
+{
+    background-color: #1398ED;
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+    font-family: Times New Roman;
+    padding: 2px 2px 2px 7px;
+}
+.HeaderStyle th
+{
+    padding: 1px;
+    color: #fff;
+    padding: 2px 2px 2px 7px;
+    text-align: center;
+}
+.HeaderStyle a
+{
+    text-decoration: none;
+    color: #fff;
+    font-family: Segoe UI,Candara, "Bitstream Vera Sana" , "DejaVu Sana" , "Trebuchet MS" , Verdana;
+    font-size: 11px;
+    display: none;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: bold;
+}
+.PagerStyle table
+{
+    text-align: center;
+    margin: auto;
+}
+.PagerStyle table td
+{
+    border: 0px;
+    padding: 1px;
+}
+.PagerStyle td
+{
+    border-top: #CCCCCC 2px solid;
+}
+.PagerStyle a
+{
+    color: #fff;
+    text-decoration: none;
+    padding: 2px 5px 2px 5px;
+    border: solid 1px #CCCCCC;
+}
+.PagerStyle span
+{
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 2px 5px 2px 5px;
+}
+
+
+/*RowStyles*/
+.RowStyle td, .AltRowStyle td, .SelectedRowStyle td, .EditRowStyle td /*Common Styles*/
+{
+    padding: 2px 2px 2px 7px;
+}
+.RowStyle td, .AltRowStyle td
+{
+    background-color: #fff;
+    font-family: Segoe UI,Candara, "Bitstream Vera Sana" , "DejaVu Sana" , "Trebuchet MS" , Verdana;
+    font-size: 12px;
+    color: #000;
+    font-weight: normal;
+}
+
+.ActiveRowStyle td
+{
+    background-color: #009900;
+    font-family: Segoe UI,Candara, "Bitstream Vera Sana" , "DejaVu Sana" , "Trebuchet MS" , Verdana;
+    font-size: 12px;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+}
+.ExpiredRowStyle td
+{
+    background-color: #b20000;
+    font-family: Segoe UI,Candara, "Bitstream Vera Sana" , "DejaVu Sana" , "Trebuchet MS" , Verdana;
+    font-size: 12px;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+.label, .Checkbox
+{
+    font-family: Segoe UI,Candara, "Bitstream Vera Sana" , "DejaVu Sana" , "Trebuchet MS" , Verdana;
+    color: #000;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 1px 1px 1px 1px;
+}
+
+
+.Msg
+{
+    color: Red;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 1px 1px 1px 1px;
+}
+
+.textbox
+{
+    border: solid 1px #90ADC6;
+    color: #000;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    height: 17px;
+    padding: 2px 0px 2px 5px;
+    margin: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.Preview
+{
+    background-image: url(Images/Mobile.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 38px 0 5px 30px;
+}
+
+.dropdown
+{
+    border: solid 1px #90ADC6;
+    color: #000;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    height: 21px;
+    padding: 2px 0px 2px 5px;
+    margin: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.button
+{
+    background-color: #44c767;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    border: 1px solid #18ab29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 16px;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+
+
+.WindowsStyle .ajax__combobox_itemlist
+{
+    background-color: #F072B2;
+    padding-left: 5px;
+    margin: 0;
+}
+.WindowsStyle .ajax__combobox_itemlist li
+{
+    background-color: #F072B2;
+    color: #fff;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+.WindowsStyle .ajax__combobox_inputcontainer .ajax__combobox_textboxcontainer input
+{
+    margin: 0 0 0 0;
+    float: left;
+    border: solid 1px #DDDDDD;
+    color: #000000;
+    font-family: Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    background-color: #fff;
+    padding: 5px 0 5px 5px;
+}
+
+.WindowsStyle .ajax__combobox_inputcontainer .ajax__combobox_buttoncontainer button
+{
+    background-image: url(../Images/bing.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: none;
+}
+
